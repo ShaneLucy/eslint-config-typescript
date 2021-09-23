@@ -2,11 +2,18 @@
   "name": "eslint-config-typescript",
   "version": "0.0.1",
   "description": "",
+  "keywords": [
+    "eslint",
+    "typescript-eslint",
+    "eslint-config-airbnb-base",
+    "eslint-config-airbnb-typescript",
+    "@typescript-eslint/eslint-plugin",
+    "prettier",
+    "prettier-eslint"
+  ],
+  "homepage": "https://github.com/ShaneLucy/eslint-config-typescript",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
+  "author": "Shane Lucy",
   "dependencies": {
     "eslint-config-airbnb-base": "^14.2.1",
     "eslint-config-airbnb-typescript": "^14.0.0",
@@ -17,5 +24,9 @@
     "eslint": "^7.32.0",
     "prettier": "~2.2.1",
     "@typescript-eslint/eslint-plugin": "^4.30.0"
+  },
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/ShaneLucy/eslint-config-typescript"
   }
 }
