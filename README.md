@@ -1,5 +1,5 @@
 # Eslint Airbnb Typescript & Prettier Configuration
-An eslint configuration that integrates [eslint-config-airbnb-base](https://www.npmjs.com/package/eslint-config-airbnb), [eslint-config-airbnb-typescript-base](https://www.npmjs.com/package/eslint-config-airbnb-typescript), [@typescript-eslint/eslint-plugin](https://www.npmjs.com/package/@typescript-eslint/eslint-plugin) and [eslint-config-prettier](https://www.npmjs.com/package/eslint-config-prettier)
+An eslint configuration that integrates [eslint-config-airbnb-base](https://www.npmjs.com/package/eslint-config-airbnb), [eslint-config-airbnb-typescript-base](https://www.npmjs.com/package/eslint-config-airbnb-typescript), [@typescript-eslint/eslint-plugin](https://www.npmjs.com/package/@typescript-eslint/eslint-plugin), [eslint-config-prettier](https://www.npmjs.com/package/eslint-config-prettier) and [eslint-plugin-import](https://preview.npmjs.com/package/eslint-plugin-import)
 
 ## Assumptions
 1. You have typescript installed

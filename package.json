@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-typescript-airbnb-prettier",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "An eslint configuration that integrates eslint-config-airbnb-base, eslint-config-airbnb-typescript-base, @typescript-eslint/eslint-plugin and eslint-config-prettier",
   "keywords": [
     "eslint",
@@ -19,7 +19,8 @@
     "eslint-config-airbnb-base": "^14.2.1",
     "eslint-config-airbnb-typescript": "^14.0.0",
     "eslint-config-prettier": "^8.1.0",
-    "@typescript-eslint/parser": "^4.30.0"
+    "@typescript-eslint/parser": "^4.30.0",
+    "eslint-plugin-import": "^2.24.2"
   },
   "peerDependencies": {
     "eslint": "^7.32.0",
