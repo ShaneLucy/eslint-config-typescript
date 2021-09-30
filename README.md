@@ -10,11 +10,17 @@ An eslint configuration that integrates the following into one package for easy 
 ## Assumptions
 1. You have typescript installed
 1. You have a ```tsconfig.json``` in your project root
-1. You have a top level public directory for static assets
 1. You have installed a version of Node greater than 8  
+1. You have installed npm version 7.x.x
 
 ## Installation 
-*Note this will install eslint, prettier & @typescript-eslint/eslint-plugin*  
+>If you aren't using npm version 7.x.x you will have to manually install these dependencies:
+> - eslint 
+> - prettier
+> - @typescript-eslint/eslint-plugin   
+>
+> Copy everything inside the peer dependencies object [here](https://github.com/ShaneLucy/eslint-config-typescript/blob/master/package.json) and paste it into your dev dependencies object.  *This will ensure you have the correct versions installed* 
+
 Install with npm   
 
 ```bash
@@ -36,8 +42,8 @@ module.exports = {
 
 Add the following commands into the scripts object in your ```package.json```
 ```json
-"lint": "prettier --write --plugin-search-dir=. .  && eslint src/**",
-"lint-fix": "prettier --write --plugin-search-dir=. .  && eslint src/** --fix"
+"lint": "prettier --write . && eslint src/**",
+"lint-fix": "prettier --write . && eslint src/** --fix"
 ```
 
 An example scripts object might look like this
@@ -46,14 +52,9 @@ An example scripts object might look like this
   "dev": "vite",
   "build": "tsc && vite build",
   "serve": "vite preview",
-  "lint": "prettier --write --plugin-search-dir=. .  && eslint src/**",
-  "lint-fix": "prettier --write --plugin-search-dir=. .  && eslint src/** --fix"
+  "lint": "prettier --write . && eslint src/**",
+  "lint-fix": "prettier --write . && eslint src/** --fix"
 },
-```
-
-In your ```tsconfig.json``` add an excludes key
-```json
-"exclude": ["node_modules/*", "public/*", "tsconfig.json"]
 ```
 
 Create an ```.eslintignore``` in your project root
@@ -64,8 +65,17 @@ touch .eslintignore
 Paste the following into ```.eslintignore``` 
 ```
 .eslintrc.js
-public/**
 node_modules/**
+```
+
+Create an ```.prettierignore``` in your project root
+```
+touch .prettierignore
+```
+
+Paste the following into ```.prettierignore``` 
+```
+node_modules/*
 ```
 
 ## Usage
