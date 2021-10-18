@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-typescript-airbnb-prettier",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "An eslint configuration that integrates eslint-config-airbnb-base, eslint-config-airbnb-typescript-base, @typescript-eslint/eslint-plugin and eslint-config-prettier",
   "keywords": [
     "eslint",
@@ -12,7 +12,7 @@
     "prettier-eslint"
   ],
   "homepage": "https://github.com/ShaneLucy/eslint-config-typescript",
-  "license" : "BSD-3-Clause",
+  "license": "BSD-3-Clause",
   "main": "index.js",
   "author": "Shane Lucy",
   "dependencies": {
@@ -28,7 +28,7 @@
     "@typescript-eslint/eslint-plugin": "^4.30.0"
   },
   "repository": {
-    "type" : "git",
-    "url" : "https://github.com/ShaneLucy/eslint-config-typescript"
+    "type": "git",
+    "url": "https://github.com/ShaneLucy/eslint-config-typescript"
   }
 }
