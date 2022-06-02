@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-typescript-airbnb-prettier",
-  "version": "1.1.4",
+  "version": "1.1.5",
   "description": "An eslint configuration that integrates eslint-config-airbnb-base, eslint-config-airbnb-typescript-base, @typescript-eslint/eslint-plugin and eslint-config-prettier",
   "keywords": [
     "eslint",
